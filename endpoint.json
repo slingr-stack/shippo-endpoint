@@ -1,0 +1,34 @@
+{
+  "label": "Shippo",
+  "name": "shippo",
+  "apiVersion": "v1",
+  "internal": false,
+  "configurationType": "GLOBAL",
+  "deployment": {
+    "profiles": [
+      {
+        "name": "default",
+        "label": "Default",
+        "memory": 256,
+        "description": "Default configuration"
+      }
+    ],
+    "allowMultipleInstances": false
+  },
+  "icon48": "https://storage.googleapis.com/static.slingrs.io/platform/endpoints/shippo.png",
+  "configurationHelpUrl": "/endpoints_shippo.html",
+  "status": "ACTIVE",
+  "stores": [],
+  "events": [],
+  "functions": [
+    {
+      "label": "POST",
+      "name": "_post"
+    }
+  ],
+  "scripts": [
+    "functions.js"
+  ],
+  "listeners": [],
+  "configuration": []
+}
