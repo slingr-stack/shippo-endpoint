@@ -19,7 +19,13 @@
   "configurationHelpUrl": "/endpoints_shippo.html",
   "status": "ACTIVE",
   "stores": [],
-  "events": [],
+  "events": [
+    {
+      "label": "Webhook",
+      "name": "webhook",
+      "description": "Happens when a Shippo hits the endpoint URL."
+    }
+  ],
   "functions": [
     {
       "label": "GET",
@@ -53,6 +59,12 @@
       "name": "apiToken",
       "type": "text",
       "required": true
+    },
+    {
+      "name": "webhook",
+      "label": "Webhook URL",
+      "type": "label",
+      "value": "@config.WEBHOOK_URL"
     }
   ]
 }
