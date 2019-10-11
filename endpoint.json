@@ -47,5 +47,12 @@
     "functions.js"
   ],
   "listeners": [],
-  "configuration": []
+  "configuration": [
+    {
+      "label": "API Token",
+      "name": "apiToken",
+      "type": "text",
+      "required": true
+    }
+  ]
 }
