@@ -22,11 +22,28 @@
   "events": [],
   "functions": [
     {
+      "label": "GET",
+      "name": "_get"
+    },
+    {
       "label": "POST",
       "name": "_post"
+    },
+    {
+      "label": "PUT",
+      "name": "_put"
+    },
+    {
+      "label": "DELETE",
+      "name": "_delete"
+    },
+    {
+      "label": "PATCH",
+      "name": "_patch"
     }
   ],
   "scripts": [
+    "shippo-helpers.js",
     "functions.js"
   ],
   "listeners": [],
